@@ -20,7 +20,9 @@ public class LambtonStringTools
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
     {
-
+        String[] words = s.split("\\s+");
+        int i = 0;
+        String cap = "";
         return null;
     }
         
