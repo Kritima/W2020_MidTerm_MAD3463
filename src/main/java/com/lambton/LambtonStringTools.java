@@ -49,7 +49,11 @@ public class LambtonStringTools
         originalString = originalString.toLowerCase();
         findString = findString.toLowerCase();
         newString = newString.toLowerCase();
-        return null;
+        if (originalString.contains(findString)) {
+            originalString = originalString.replace(findString, newString);
+            return originalString;
+        } else
+            return "String doesn't contain matched pattern";
     }
 
     }
