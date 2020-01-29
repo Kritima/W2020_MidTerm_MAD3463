@@ -57,5 +57,6 @@ public class C0778923Main {
         System.out.println("Input  : Lambton College in Toronto");
         System.out.println("Output : " + newString);
 
+
     }
 }

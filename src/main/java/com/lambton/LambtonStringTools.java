@@ -14,6 +14,8 @@ public class LambtonStringTools
     //1 - REVERSE STRING
     public static String reverse(String s)
     {
+        char ch[] = s.toCharArray();
+        String rev = "";
        return null;
     }
     
@@ -34,7 +36,7 @@ public class LambtonStringTools
     }
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
-    public static String mostFrequent(String s) 
+    public static String mostFrequent(String s)
     {
         int charactercount = 256;
         int[] count = new int[charactercount];
