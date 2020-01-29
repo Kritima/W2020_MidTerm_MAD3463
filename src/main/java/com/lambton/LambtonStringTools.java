@@ -16,6 +16,9 @@ public class LambtonStringTools
     {
         char ch[] = s.toCharArray();
         String rev = "";
+        for (int i = ch.length - 1; i >= 0; i--) {
+            rev += ch[i];
+        }
        return null;
     }
     
