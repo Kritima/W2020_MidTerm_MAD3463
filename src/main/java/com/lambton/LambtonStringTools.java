@@ -39,6 +39,16 @@ public class LambtonStringTools
         int charactercount = 256;
         int[] count = new int[charactercount];
         int i;
+        for (i = 0; i < s.length(); i++)
+            (count[s.charAt(i)])++;
+        int mostFrequent = 0;
+        for (i = 0; i < charactercount; i++) {
+            if (count[i] > count[mostFrequent]) {
+                mostFrequent = i;
+            } else if (count[i] == count[mostFrequent]) {
+                mostFrequent = i;
+            }
+        }
         return null;
     }
     
