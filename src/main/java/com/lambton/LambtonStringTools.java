@@ -30,7 +30,7 @@ public class LambtonStringTools
         } else {
             cap = null;
         }
-        return null;
+        return cap;
     }
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
