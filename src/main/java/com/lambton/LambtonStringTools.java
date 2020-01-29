@@ -20,7 +20,7 @@ public class LambtonStringTools
     }
     
     //2 - FORMAT INITIALS OF STRING
-    public static String initials(String s) 
+    public static String initials(String s)
     {
         String[] words = s.split("\\s+");
         int i = 0;
@@ -36,7 +36,7 @@ public class LambtonStringTools
     }
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
-    public static String mostFrequent(String s)
+    public static char mostFrequent(String s)
     {
         int charactercount = 256;
         int[] count = new int[charactercount];
@@ -51,7 +51,7 @@ public class LambtonStringTools
                 mostFrequent = i;
             }
         }
-        return null;
+        return (char) mostFrequent;
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
