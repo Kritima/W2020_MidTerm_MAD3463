@@ -37,6 +37,12 @@ public class C0778923Main {
         int decimal = LambtonStringTools.binaryToDecimal("101010");
         System.out.println("Input  : 101010");
         System.out.println("Output : " + decimal);
+
+        System.out.println("\n--- Binary to Decimal");
+        int decimal1 = LambtonStringTools.binaryToDecimal("101010");
+        System.out.println("Input  : 100001.1");
+        System.out.println("Output : " + decimal1);
+
         
         System.out.println("\n--- Most Frequent");
         String mostFrequent = LambtonStringTools.mostFrequent("pritesh kumar pAtEl");
