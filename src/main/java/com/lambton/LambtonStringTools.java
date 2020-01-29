@@ -14,8 +14,7 @@ public class LambtonStringTools
     //1 - REVERSE STRING
     public static String reverse(String s)
     {
-
-        return null;
+       return null;
     }
     
     //2 - FORMAT INITIALS OF STRING
@@ -34,6 +33,7 @@ public class LambtonStringTools
     //4 - CONVERT BINARY NUMBER TO DECIMALS
     public static int binaryToDecimal(String s) 
     {
+        int decimal = 0;
        return 0;
     }
      
@@ -43,3 +43,8 @@ public class LambtonStringTools
         return null;
     }
 }
+
+
+
+
+
