@@ -39,7 +39,7 @@ public class LambtonStringTools
         } catch (Exception e) {
             decimal = -1;
         }
-       return 0;
+        return decimal;
     }
      
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
