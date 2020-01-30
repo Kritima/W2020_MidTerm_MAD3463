@@ -14,16 +14,22 @@ public class LambtonStringTools
     //1 - REVERSE STRING
     public static String reverse(String s)
     {
-        String[] temp = s.split("\\s+");
         String result = " ";
 
-        for (int i = 0; i < temp.length; i++) {
-            if (i == temp.length - 1)
-                result = temp[i] + result;
-            else
-                result = " " + temp[i] + result;
+        if(s != null && !s.isEmpty()){
+            String[] temp = s.split("\\s+");
+            for (int i = 0; i < temp.length; i++) {
+                if (i == temp.length - 1)
+                    result = temp[i] + result;
+                else
+                    result = " " + temp[i] + result;
+            }
+        }
+        else {
+            result = null;
         }
         return result;
+
     }
     
     //2 - FORMAT INITIALS OF STRING

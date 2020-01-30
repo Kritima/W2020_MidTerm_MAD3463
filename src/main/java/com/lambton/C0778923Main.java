@@ -18,14 +18,14 @@ public class C0778923Main {
         System.out.println("Input  : Failure will never overtake me if my determination to succeed is strong enough");
         System.out.println("Output : " + rev);
 
-        /*rev = LambtonStringTools.reverse(null);
+        rev = LambtonStringTools.reverse(null);
         System.out.println("Input  : NULL");
         if(rev == null)
         {
             System.out.println("Function returns NULL value");
         }else {
             System.out.println("Output : " + rev);
-        }*/
+        }
         
         System.out.println("\n--- Init");
         String init = LambtonStringTools.initials("pritesh kumar pAtEl");
