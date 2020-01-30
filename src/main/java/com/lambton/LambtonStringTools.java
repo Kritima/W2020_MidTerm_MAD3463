@@ -14,12 +14,17 @@ public class LambtonStringTools
     //1 - REVERSE STRING
     public static String reverse(String s)
     {
-        char ch[] = s.toCharArray();
         String rev = "";
-        for (int i = ch.length - 1; i >= 0; i--) {
-            rev += ch[i];
+        if(s != null && !s.isEmpty()){
+            char ch[] = s.toCharArray();
+
+            for (int i = ch.length - 1; i >= 0; i--) {
+                rev += ch[i];
+            }
         }
-       return rev;
+        else {
+            rev = null; } // handle String if NULL
+        return rev;
     }
     
     //2 - FORMAT INITIALS OF STRING
@@ -73,9 +78,6 @@ public class LambtonStringTools
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
 
-        originalString = originalString.toLowerCase();
-        findString = findString.toLowerCase();
-        newString = newString.toLowerCase();
         if (originalString.contains(findString)) {
             originalString = originalString.replace(findString, newString);
             return originalString;
