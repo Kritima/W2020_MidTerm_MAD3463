@@ -39,19 +39,14 @@ public class C0778923Main {
 
         
         System.out.println("\n--- Binary to Decimal");
-        int decimal = LambtonStringTools.binaryToDecimal("101010");
+        int decimal = LambtonStringTools.binaryToDecimal(101010);
         System.out.println("Input  : 101010");
         System.out.println("Output : " + decimal);
 
         System.out.println("\n--- Binary to Decimal");
-        int decimal1 = LambtonStringTools.binaryToDecimal("100001.1");
-        System.out.println("Input  : 100001.1");
-        System.out.println("Output : " + decimal1);
-
-        System.out.println("\n--- Binary to Decimal");
-        int decimal2 = LambtonStringTools.binaryToDecimal("111112");
+        int decimal2 = LambtonStringTools.binaryToDecimal(111112);
         System.out.println("Input  : 111112");
-        System.out.println("Output : " + decimal1);
+        System.out.println("Output : " + decimal2);
 
         
         System.out.println("\n--- Most Frequent");
