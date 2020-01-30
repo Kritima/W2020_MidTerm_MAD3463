@@ -44,7 +44,7 @@ public class C0778923Main {
         System.out.println("Output : " + decimal);
 
         System.out.println("\n--- Binary to Decimal");
-        int decimal1 = LambtonStringTools.binaryToDecimal("101010");
+        int decimal1 = LambtonStringTools.binaryToDecimal("100001.1");
         System.out.println("Input  : 100001.1");
         System.out.println("Output : " + decimal1);
 
