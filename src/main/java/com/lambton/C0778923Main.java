@@ -57,6 +57,10 @@ public class C0778923Main {
         System.out.println("Input  : Lambton College in Toronto");
         System.out.println("Output : " + newString);
 
+        System.out.println("\n--- Replace SubString");
+        String newString2 = LambtonStringTools.replaceSubString("the dog jumped over the fence", "the", "that");
+        System.out.println("Input  : the dog jumped over the fence");
+        System.out.println("Output : " + newString2);
 
 
 
