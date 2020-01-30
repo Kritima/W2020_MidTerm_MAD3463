@@ -46,7 +46,7 @@ public class LambtonStringTools
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
     public static char mostFrequent(String s)
     {
-        int charactercount = 256;
+        int charactercount = 256; //setting up count for all characters
         int[] count = new int[charactercount];
         int i;
         for (i = 0; i < s.length(); i++)

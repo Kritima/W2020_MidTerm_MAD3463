@@ -32,6 +32,11 @@ public class C0778923Main {
         System.out.println("Input  : pritesh kumar pAtEl");
         System.out.println("Output : " + init);
 
+        System.out.println("\n--- Init");
+        String init2 = LambtonStringTools.initials("AaroN LANGille");
+        System.out.println("Input  : AaroN LANGille");
+        System.out.println("Output : " + init2);
+
         
         System.out.println("\n--- Binary to Decimal");
         int decimal = LambtonStringTools.binaryToDecimal("101010");
