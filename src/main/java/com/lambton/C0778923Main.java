@@ -48,6 +48,11 @@ public class C0778923Main {
         System.out.println("Input  : 100001.1");
         System.out.println("Output : " + decimal1);
 
+        System.out.println("\n--- Binary to Decimal");
+        int decimal2 = LambtonStringTools.binaryToDecimal("111112");
+        System.out.println("Input  : 111112");
+        System.out.println("Output : " + decimal1);
+
         
         System.out.println("\n--- Most Frequent");
         char mostFrequent = LambtonStringTools.mostFrequent("pritesh kumar pAtEl");
